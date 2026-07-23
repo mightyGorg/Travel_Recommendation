@@ -9,9 +9,9 @@ import { sendTravelPreferences } from '../../Services/BackendService';
 import BounceLoader from "react-spinners/BounceLoader";
 import NoRecommendationsModel from '../../components/NoRecommendation';
 
+
 const MapboxMap = (props) => {
-// Add your Mapbox Access Token here
-mapboxgl.accessToken = 'pk.eyJ1IjoibWlnaHR5Z29yZyIsImEiOiJjbHZtYXd3a2swMGh4Mmlxb2RqaXpiMG4yIn0.uHYDunUwBYxEooSTEXYkVA';
+mapboxgl.accessToken = 'SOME_TOKEN';
 
 useEffect(() => {        
     const map = new mapboxgl.Map({
